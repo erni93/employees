@@ -1,0 +1,9 @@
+@import '~src/styles/variables.scss';
+
+span.badge-default {
+    background-color: $blue-content-color;
+}
+
+span.badge-orange {
+    background-color: red;
+}

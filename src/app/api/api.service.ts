@@ -21,6 +21,7 @@ export class ApiService {
           employees.forEach(employee => {
             employee.dateOfBirth = new Date(employee.dateOfBirth);
             employee.dateOfHire = new Date(employee.dateOfHire);
+            employee.avatar = employee.avatar.replace("ap1", "api")
           });
           return employees;
         }),

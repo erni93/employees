@@ -1,3 +1,8 @@
-<p>card works!</p>
-<p>{{employee | json}}</p>
-<p>{{isVIP}}</p>
+<div class="container">
+    <img [src]="employee.avatar" alt="avatar">
+    <div class="description">
+        <p class="name">{{employee.firstName}} {{employee.lastName}}</p>
+        <p class="position">{{employee.position}}</p>
+        <p class="badges"><span *ngFor="let badge of badges" [ngClass]="badge.class">{{badge.text}}</span></p>
+    </div>
+</div>

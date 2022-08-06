@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 import { Employee } from 'src/app/api/models/employee';
+import { Badge, BadgeCssClass, MARRIED_BADGE, VIP_BADGE } from './models/badge';
 
 const VIP_HIRE_DATE_YEAR_LIMIT = 2020;
 
@@ -12,12 +13,23 @@ const VIP_HIRE_DATE_YEAR_LIMIT = 2020;
 export class CardComponent implements OnInit {
   @Input() employee: Employee;
 
-  public isVIP = false;
-
-  constructor() { }
+  public badges: Badge[] = [];
 
   ngOnInit(): void {
-    this.isVIP = this.employee != null && this.employee.dateOfHire.getFullYear() < VIP_HIRE_DATE_YEAR_LIMIT;
+    this.loadBadges();
+  }
+
+  public loadBadges(): void {
+    this.badges.push({
+      text: this.employee.department,
+      class: BadgeCssClass.DEFAULT,
+    });
+    if (this.employee.married) {
+      this.badges.push(MARRIED_BADGE);
+    }
+    if (this.employee.dateOfHire.getFullYear() < VIP_HIRE_DATE_YEAR_LIMIT) {
+      this.badges.push(VIP_BADGE);
+    }
   }
 
 }
