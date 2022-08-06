@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { CardComponent } from './card/card.component';
 import { PaginatorComponent } from './paginator/paginator.component';
@@ -10,7 +11,8 @@ import { PaginatorComponent } from './paginator/paginator.component';
     PaginatorComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FontAwesomeModule,
   ],
   exports: [CardComponent, PaginatorComponent]
 })

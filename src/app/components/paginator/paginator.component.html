@@ -5,7 +5,7 @@
     <div class="line"></div>
     <div class="controls">
         <div class="left">
-            <span [class.hidden]="!paginator.leftAvailable" (click)="navigateLeft()">&#60;-</span>
+            <fa-icon [icon]="faArrowLeft" [class.hidden]="!paginator.leftAvailable" (click)="navigateLeft()"></fa-icon>
         </div>
         <div class="numbers">
             <span *ngFor="let page of paginator.pages" 
@@ -15,7 +15,7 @@
             </span>
         </div>
         <div class="right">
-            <span [class.hidden]="!paginator.rightAvailable" (click)="navigateRight()">-&#62;</span>
+            <fa-icon [icon]="faArrowRight" [class.hidden]="!paginator.rightAvailable" (click)="navigateRight()"></fa-icon>
         </div>
     </div>
 </div>

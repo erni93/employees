@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import { Employee } from 'src/app/api/models/employee';
 
@@ -22,6 +23,10 @@ export class PaginatorComponent implements OnInit {
   @Input() itemsPerPage: number = DEFAULT_ITEMS_PER_PAGE;
 
   public paginator: Paginator;
+
+  // font-awesome icons
+  faArrowLeft = faArrowLeft;
+  faArrowRight = faArrowRight;
 
   ngOnInit(): void {
     this.initPaginator();
