@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "firstName": "Jon",
+        "lastName": "Snow",
+        "position": "Head of Night Watch",
+        "department": "Executives",
+        "dateOfBirth": "1987-12-25",
+        "dateOfHire": "2021-03-15",
+        "married": false,
+        "avatar": "/ap1/v1/user1.png"
+    },
+    {
+        "id": 2,
+        "firstName": "Ned",
+        "lastName": "Stark",
+        "position": "CEO of Winterfell",
+        "department": "Executives",
+        "dateOfBirth": "1962-11-05",
+        "dateOfHire": "2017-01-09",
+        "married": true,
+        "avatar": "/ap1/v1/user2.png"
+    },
+    {
+        "id": 3,
+        "firstName": "Tyrion",
+        "lastName": "Lanister",
+        "position": "CFO of Castle Rock",
+        "department": "Support",
+        "dateOfBirth": "1979-03-09",
+        "dateOfHire": "2020-01-15",
+        "married": true,
+        "avatar": "/ap1/v1/user3.png"
+    },
+    {
+        "id": 4,
+        "firstName": "Petyr",
+        "lastName": "Baelish",
+        "position": "Accountant",
+        "department": "Support",
+        "dateOfBirth": "1974-05-12",
+        "dateOfHire": "2019-02-14",
+        "married": false,
+        "avatar": "/ap1/v1/user4.png"
+    },
+    {
+        "id": 5,
+        "firstName": "Gregor",
+        "lastName": "Clegane",
+        "position": "Bouncer",
+        "department": "Support",
+        "dateOfBirth": "1953-07-18",
+        "dateOfHire": "2021-07-22",
+        "married": false,
+        "avatar": "/ap1/v1/user5.png"
+    },
+    {
+        "id": 6,
+        "firstName": "Daenerys",
+        "lastName": "Targaryen",
+        "position": "President and CEO",
+        "department": "Executives",
+        "dateOfBirth": "1963-12-11",
+        "dateOfHire": "2017-01-08",
+        "married": true,
+        "avatar": "/ap1/v1/user6.png"
+    },
+    {
+        "id": 7,
+        "firstName": "Jaime",
+        "lastName": "Lannister",
+        "position": "Crisis manager",
+        "department": "Executives",
+        "dateOfBirth": "1970-08-09",
+        "dateOfHire": "2019-11-12",
+        "married": false,
+        "avatar": "/ap1/v1/user7.png"
+    },
+    {
+        "id": 8,
+        "firstName": "Jorah",
+        "lastName": "Mormont",
+        "position": "Personal trainer",
+        "department": "Support",
+        "dateOfBirth": "1969-03-12",
+        "dateOfHire": "2021-03-12",
+        "married": false,
+        "avatar": "/ap1/v1/user8.png"
+    },
+    {
+        "id": 9,
+        "firstName": "Samwell",
+        "lastName": "Tarly",
+        "position": "Head of R&D",
+        "department": "Executives",
+        "dateOfBirth": "1989-12-03",
+        "dateOfHire": "2021-07-18",
+        "married": true,
+        "avatar": "/ap1/v1/user9.png"
+    },
+    {
+        "id": 10,
+        "firstName": "Tormund",
+        "lastName": "Giantsbane",
+        "position": "Corporate defence",
+        "department": "Support",
+        "dateOfBirth": "1972-10-03",
+        "dateOfHire": "2020-05-16",
+        "married": false,
+        "avatar": "/ap1/v1/user10.png"
+    },
+    {
+        "id": 11,
+        "firstName": "Catelyn",
+        "lastName": "Giantsbane",
+        "position": "CMO of Winterfell",
+        "department": "Executives",
+        "dateOfBirth": "1972-10-03",
+        "dateOfHire": "2020-05-16",
+        "married": false,
+        "avatar": "/ap1/v1/user11.png"
+    },
+    {
+        "id": 12,
+        "firstName": "Cersei",
+        "lastName": "Giantsbane",
+        "position": "CMO of Castle Rock",
+        "department": "Executives",
+        "dateOfBirth": "1972-10-03",
+        "dateOfHire": "2020-05-16",
+        "married": false,
+        "avatar": "/ap1/v1/user12.png"
+    },
+    {
+        "id": 13,
+        "firstName": "Ellaria",
+        "lastName": "Giantsbane",
+        "position": "VP of all",
+        "department": "Support",
+        "dateOfBirth": "1972-10-03",
+        "dateOfHire": "2020-05-16",
+        "married": false,
+        "avatar": "/ap1/v1/user13.png"
+    },
+    {
+        "id": 14,
+        "firstName": "Yara",
+        "lastName": "Giantsbane",
+        "position": "Psychologist",
+        "department": "Support",
+        "dateOfBirth": "1970-07-12",
+        "dateOfHire": "2018-06-22",
+        "married": false,
+        "avatar": "/ap1/v1/user14.png"
+    }
+]
