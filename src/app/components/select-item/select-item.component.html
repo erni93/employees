@@ -1,0 +1,8 @@
+<div [formGroup]="form">
+    <select formControlName="selected">
+        <option [ngValue]="defaultValue">{{defaultValue}}</option>
+        <option *ngFor="let value of values" [ngValue]="value">
+            {{ value }}
+        </option>
+    </select> 
+</div>

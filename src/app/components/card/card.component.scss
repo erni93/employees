@@ -33,11 +33,13 @@ p.position{
 p.badges{
     display: flex;
     margin-top: 0.5em;
+    flex-wrap: wrap;
     >span {
         padding: 4px 8px;
         border-radius: 12px;
         font-size: 12px;
         margin-right: 10px;
+        margin-bottom: 1em;
         font-weight: bolder;
     }
     >span.badge-default {

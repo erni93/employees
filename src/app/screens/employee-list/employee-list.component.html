@@ -1,3 +1,10 @@
-<h1>Employees</h1>
+<div class="header">
+    <h1>Employees</h1>
+    <employees-select-item
+        [values]="departments"
+        [defaultValue]="ALL_DEPARTMENTS"
+        (selected)="filterByDepartment($event)">
+    </employees-select-item>
+</div>
 
 <employees-paginator *ngIf="employees != null" [employees]="employees"></employees-paginator>
