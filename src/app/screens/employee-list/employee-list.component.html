@@ -1,5 +1,3 @@
 <h1>Employees</h1>
 
-<div *ngFor="let employee of employees">
-    <employees-card [employee]="employee"></employees-card>
-</div>
+<employees-paginator *ngIf="employees != null" [employees]="employees"></employees-paginator>

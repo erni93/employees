@@ -1,0 +1,57 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    employees-card {
+        width: 45%;
+    }
+}
+
+.paginator{
+    display: flex;
+    flex-direction: column;
+    >.line {
+        height: 5px;
+        background-color: #e5e5e5;
+    }
+    >.controls {
+        display: flex;
+        margin-top: 1.5em;
+    }
+    span {
+        cursor: pointer;
+    }
+}
+
+.controls {
+    >.left,>.right {
+        flex-grow: 1;
+    }
+    >.left{
+        text-align: left;
+    }
+    >.right{
+        text-align: right;
+    }
+    >.numbers{
+        font-weight: bolder;
+    }
+}
+
+.numbers{
+    >span{
+        padding-left: 1em;
+        padding-right: 1em;
+        color: #9196a0;
+    }
+    >.actualPage{
+        border-top: 5px solid #0086c3;
+        color: #0086c3;
+        padding-top: 24px;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+}

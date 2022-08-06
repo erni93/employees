@@ -9,8 +9,8 @@ import { Employee } from 'src/app/api/models/employee';
   styleUrls: ['./employee-list.component.scss']
 })
 export class EmployeeListComponent implements OnInit {
-  public employees: Employee[] = [];
-  public departments: string[] = [];
+  public employees: Employee[];
+  public departments: string[];
 
   public constructor(public apiService: ApiService) {}
 

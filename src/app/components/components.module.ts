@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { CardComponent } from './card/card.component';
+import { PaginatorComponent } from './paginator/paginator.component';
 
 @NgModule({
   declarations: [
-    CardComponent
+    CardComponent,
+    PaginatorComponent
   ],
   imports: [
     CommonModule
   ],
-  exports: [CardComponent]
+  exports: [CardComponent, PaginatorComponent]
 })
 export class ComponentsModule { }
