@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/styles/fonts/roboto/stylesheet.css",
               "src/styles/styles.scss"
             ],
             "scripts": []
@@ -97,6 +98,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/styles/fonts/roboto/stylesheet.css",
               "src/styles/styles.scss"
             ],
             "scripts": []

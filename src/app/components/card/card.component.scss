@@ -1,9 +1,55 @@
 @import '~src/styles/variables.scss';
 
-span.badge-default {
-    background-color: $blue-content-color;
+.container {
+    display: flex;
+    margin-bottom: 1em;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    padding: 1em;
+    border-radius: 10px;
+    >img{
+        height: 200px;
+        width: 177px;
+        border-radius: 10px;
+    }
+    >.description {
+        padding: 1em 1.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+    }
 }
 
-span.badge-orange {
-    background-color: red;
+p {
+    margin: 0.3em 0;
 }
+
+h1.name {
+    font-size: 18px;
+    margin: 0;
+}
+p.position{
+    font-size: 14px;
+    color: #898989;
+}
+
+p.badges{
+    display: flex;
+    >span {
+        padding: 4px 8px;
+        border-radius: 12px;
+        font-size: 12px;
+        margin-right: 10px;
+        font-weight: bolder;
+    }
+    >span.badge-default {
+        background-color: #dbeafe;
+        color: #0086c3;
+    }
+    
+    >span.badge-orange {
+        background-color: #fde8de;
+        color: #c28551;
+    }
+}
+

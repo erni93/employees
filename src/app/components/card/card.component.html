@@ -1,7 +1,7 @@
 <div class="container">
     <img [src]="employee.avatar" alt="avatar">
     <div class="description">
-        <p class="name">{{employee.firstName}} {{employee.lastName}}</p>
+        <h1 class="name">{{employee.firstName}} {{employee.lastName}}</h1>
         <p class="position">{{employee.position}}</p>
         <p class="badges"><span *ngFor="let badge of badges" [ngClass]="badge.class">{{badge.text}}</span></p>
     </div>
